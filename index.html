@@ -1,64 +1,52 @@
 <!DOCTYPE HTML>
 <!--
-	Dimension by HTML5 UP
+	Aerial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Under Development!</title>
+		<title>entityBIRD - Ator</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body>
-
-		<!-- Wrapper -->
-			<div id="wrapper">
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
 				<!-- Header -->
 					<header id="header">
-						<div class="logo">
-							<span class="icon fa-frown-o"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Sorry!</h1>
-								<p>Hi there! This is Jonas Wilson's website, and is currently being developed.<br />
-								Until it's ready, this is a placeholder from <a href="https://html5up.net">HTML5 UP.</a><br />
-								Click on the buttons below to see my profiles on other networks.</p>
-							</div>
-						</div>
+						<h1>Jonas Wilson</h1>
+						<p>Developer &nbsp;&bull;&nbsp; Cybersecurity &nbsp;&bull;&nbsp; Musician</p>
 						<nav>
 							<ul>
 								<li><a href="https://twitter.com/datorfata" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 								<li><a href="https://www.facebook.com/slhscp/?ref=page_internal" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 								<li><a href="https://www.linkedin.com/in/jonas-w-010899a5/" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
 								<li><a href="https://github.com/entityJonas" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
+
 							</ul>
 						</nav>
 					</header>
 
-
-
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Jonas Wilson. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<span class="copyright">&copy; Jonas Wilson.</span>
 					</footer>
 
 			</div>
-
-		<!-- BG -->
-			<div id="bg"></div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+		</div>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
 	</body>
 </html>
